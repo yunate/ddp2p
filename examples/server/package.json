@@ -1,0 +1,15 @@
+{
+  "name": "ddp2p-test-server",
+  "version": "1.0.0",
+  "description": "test server for ddp2p",
+  "author": "yunate",
+  "license": "ISC",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ddp2p": "file:../../"
+  }
+}

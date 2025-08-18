@@ -1,0 +1,15 @@
+{
+  "name": "ddp2p-test-client",
+  "version": "1.0.0",
+  "description": "test client for ddp2p",
+  "scripts": {
+    "start": "esbuild index.js --bundle --outfile=dist/index.js --minify --sourcemap",
+    "build": "esbuild index.js --bundle --outfile=dist/index.js --minify --sourcemap"
+  },
+  "author": "yunate",
+  "license": "ISC",
+  "devDependencies": {
+    "ddp2p": "file:../../",
+    "esbuild": "^0.25.9"
+  }
+}
