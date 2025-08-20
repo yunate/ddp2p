@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "test client for ddp2p",
   "scripts": {
-    "start": "esbuild index.js --bundle --outfile=dist/index.js --minify --sourcemap",
-    "build": "esbuild index.js --bundle --outfile=dist/index.js --minify --sourcemap"
+    "dev": "node build.js",
+    "build": "NODE_ENV=production node build.js",
+    "preview": "npx serve dist"
   },
   "author": "yunate",
   "license": "ISC",
